@@ -1,0 +1,36 @@
+{
+  "project_info": {
+    "project_number": "413415639685",
+    "project_id": "kalpa-app-af65d",
+    "storage_bucket": "kalpa-app-af65d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413415639685:ios:f00690bb5546496b9737ec",
+        "android_client_info": {
+          "package_name": "com.bgs.kalpasolutions"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHV9jJ7Qf85M9DDzhhEJlzPSLclc4e5vE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413415639685-1rnragbtqglng723lvb1v6au287kucam.apps.googleusercontent.com"
+        }
+      ]
+    }
+  ],
+  "configuration_version": "1"
+}

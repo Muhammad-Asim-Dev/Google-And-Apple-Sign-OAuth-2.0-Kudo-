@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "413415639685",
+    "project_id": "kalpa-app-af65d",
+    "storage_bucket": "kalpa-app-af65d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413415639685:android:9db9aa51983fe3009737ec",
+        "android_client_info": {
+          "package_name": "com.bgs.kalpasolutions"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413415639685-tebglk6aohg9889pt5bbm08ncbjafrga.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bgs.kalpasolutions",
+            "certificate_hash": "f7e8ea78efd85c1beb57c3023a63d302976ef5ac"
+          }
+        },
+        {
+          "client_id": "413415639685-49etd8mro4bq04pcfldhjpb0tcp4mqe4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEd6VUwFOiYa6Plf7AL8jGq6Yqf2IR_mA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413415639685-49etd8mro4bq04pcfldhjpb0tcp4mqe4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "413415639685-1rnragbtqglng723lvb1v6au287kucam.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bgs.kalpasolutions"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
