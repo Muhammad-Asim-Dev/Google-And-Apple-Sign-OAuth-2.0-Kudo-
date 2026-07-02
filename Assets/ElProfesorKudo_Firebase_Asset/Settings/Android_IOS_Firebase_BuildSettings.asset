@@ -35,15 +35,14 @@ MonoBehaviour:
   AndroidRedirectPath: /redirect.html
   AndroidCustomScheme: unitydl
   AndroidCustomHost: 
-  ReadMe: "////////////       IMPORTANT         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n-
-    Hardcoding the Client ID and Cloud Function URL in AndroidManifest.xml \r\nis
-    NOT recommended, as these sensitive values can be exposed publicly.\r\n- This
-    is for TESTING ONLY.\r\n- I\u2019m not responsible for any leaks or misuse.\r\n-
-    For better security, fetch these values from a backend service at runtime.\r\n-
-    If a backend isn\u2019t possible, use the SensitiveValueSet() method \r\nin FirebaseAppleSignInAndroid
-    to set them in memory during execution,\r\nor hardcoded it in to the aar file
-    to minimizing exposure.\r\n- Follow these guidelines to keep your app and users
-    safe."
+  ReadMe: "////////////       IMPORTANT         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n-
+    Hardcoding the Client ID and Cloud Function URL in AndroidManifest.xml \nis NOT
+    recommended, as these sensitive values can be exposed publicly.\n- This is for
+    TESTING ONLY.\n- I\u2019m not responsible for any leaks or misuse.\n- For better
+    security, fetch these values from a backend service at runtime.\n- If a backend
+    isn\u2019t possible, use the SensitiveValueSet() method \nin FirebaseAppleSignInAndroid
+    to set them in memory during execution,\nor hardcoded it in to the aar file to
+    minimizing exposure.\n- Follow these guidelines to keep your app and users safe."
   AppleClientID: 
   AppleCloudFunctionUrl: 
   AndroidNotificationSoundName: alert
