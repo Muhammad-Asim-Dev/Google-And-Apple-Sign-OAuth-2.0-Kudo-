@@ -1,24 +1,27 @@
-platform :ios, '13.0'
+source 'https://cdn.cocoapods.org/'
+
+platform :ios, '15.0'
+
 use_frameworks! :linkage => :static
 
 target 'UnityFramework' do
-  pod 'Firebase/Analytics', '13.13.0'
-  pod 'Firebase/Auth', '13.13.0'
-  pod 'Firebase/Core', '13.13.0'
-  pod 'Firebase/Database', '13.13.0'
-  pod 'Firebase/Firestore', '13.13.0'
-  pod 'Firebase/Storage', '13.13.0'
-  pod 'Firebase/Messaging', '13.13.0'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Messaging'
   pod 'FirebaseInstallations'
-  pod 'GoogleSignIn', '7.0.0'
+
+  pod 'GoogleSignIn'
 end
 
 target 'Unity-iPhone' do
-""#"" You can add specific pods for the main app here if needed
 end
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|
+
     if target.name == 'BoringSSL-GRPC'
       target.source_build_phase.files.each do |file|
         if file.settings && file.settings['COMPILER_FLAGS']
@@ -28,7 +31,7 @@ post_install do |installer|
         end
       end
     end
-""#"" Add ENABLE_BITCODE = NO setting for all pod targets
+
     target.build_configurations.each do |config|
       config.build_settings['ENABLE_BITCODE'] = 'NO'
     end
